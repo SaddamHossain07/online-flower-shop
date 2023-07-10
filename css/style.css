@@ -91,7 +91,6 @@ header {
 .featured-item {
     border-radius: 300px 300px 0px 0px;
     background-color: blueviolet;
-    padding: 20px;
     min-width: 460px;
     min-height: 535px;
     text-align: center;
@@ -156,4 +155,18 @@ header {
 .hd-description {
     max-width: 600px;
     padding-bottom: 30px;
+}
+
+
+/* instagram section  */
+
+.instagram-section p {
+    max-width: 600px;
+}
+
+.instagram-posts {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 50px 0;
 }
