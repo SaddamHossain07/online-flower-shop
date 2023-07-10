@@ -138,19 +138,28 @@ header {
 }
 
 /* featured bottom section  */
-.featured-bottom {
+.featured-bottom-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 130px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 90px 0;
+    padding: 88px 0;
 }
 
 .item {
     text-align: center;
 }
+
+.item p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
 
 /* hot deal section  */
 .hot-deal-section {
