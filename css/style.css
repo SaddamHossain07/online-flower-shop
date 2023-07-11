@@ -46,6 +46,7 @@
 /* header styles */
 header {
     background: rgba(229, 84, 115, 0.10);
+    width: 100vw;
 }
 
 .header-container {
@@ -171,6 +172,7 @@ header {
     padding: 100px 0;
     gap: 180px;
     background: rgba(229, 84, 115, 0.05);
+    width: 100vw;
 }
 
 .hot-deal-info {
@@ -200,41 +202,65 @@ header {
 }
 
 /* get in touch  */
+
 .get-in-touch {
-    width: 100%;
+    width: 100vw;
     height: 700px;
     background: rgba(229, 84, 115, 0.05);
     padding: 100px 0;
     margin: 150px auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
 }
 
-.contact-form {
-    background-color: #ecd5d5;
-    border-radius: 10px;
-    max-height: 700px;
-    max-width: 500px;
-    margin: 0 auto;
+.left {
+    border-radius: 10px 0px 0px 10px;
+    margin-right: -3px;
+    background-image: url('../images/Rectangle\ 4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    min-width: 500px;
     padding: 45px;
 }
 
-form {
-    margin-top: 45px;
+.right {
+    border-radius: 0px 10px 10px 0px;
+    min-height: 600px;
+    min-width: 500px;
+    padding: 45px;
+    background-color: #E5D8D0;
+}
+
+.right h3 {
+    font-weight: 800;
+}
+
+.get-in-touch-form {
+    margin-top: 35px;
 }
 
 .input {
-    padding: 25px;
+    padding: 23px;
     border: 0;
     border-radius: 8px;
     display: block;
     width: 450px;
     margin-bottom: 25px;
     font-size: 20px;
+    box-shadow: 4px 5px 9px gray;
 }
 
 .btn {
     width: 100%;
+    box-shadow: 4px 5px 9px gray;
 }
+
+
 
 /* latest deals section  */
 .latest-deals-section {
@@ -273,6 +299,7 @@ form {
     text-align: center;
     background-color: black;
     padding: 130px 0;
+    width: 100vw;
 }
 
 .footer-title {
